@@ -44,6 +44,12 @@ h1 {
   margin-bottom: 20px;
 }
 
+.img-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 .cookie:hover {
   animation: flinging 0.2s;
   animation-iteration-count: 4;
@@ -67,8 +73,7 @@ h1 {
   }
 }
 
-.screen2,
-hide {
+.hide {
   display: none !important;
 }
 
@@ -103,8 +108,7 @@ h2 {
   line-height: normal;
 }
 
-
-button {
+.open-cookie {
   border: none;
   padding: 16px;
   border-radius: 4px;
